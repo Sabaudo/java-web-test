@@ -1,0 +1,26 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Padauk&display=swap');
+body{
+	font-family: 'Padauk', sans-serif;
+	font-size: 20px;
+	
+}
+h1{
+	color: #5F9EA0;
+	font-size: 50px;
+}
+
+.botao_1{
+	text-decoration: none;
+	padding: 10px;
+	background-color: #5F9EA0;
+	color: #fff;
+	border-radius: 12px;
+}
+
+.pt1{
+	
+	background-color: #5F9EA0;
+	color: #fff;
+	word-spacing: 250px;
+}
