@@ -33,14 +33,11 @@ public class Hello extends HttpServlet {
 		out.println("<!doctype html>");
 		out.println("<html>");
 		out.println("<head>");
-		out.println("<title>Hello Servlet testando sabagaça</title>");
+		out.println("<title>Hello Servlet testando sabagaÃ§a</title>");
 		out.println("</head>");
 		out.println("<body>");
 		out.println("<h2>Boa noite</h2>");
-		out.println("<br>");
-		out.println("EH TUDO NOSSO, NUNCA DESISTA PORRRAAAA");
-		out.println("</body>");
-		out.println("</html>");
+		
 		
 	}
 
