@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Cadastro de pedidos</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+	<h1>Novo pedido</h1>
+	<form name="frmPedido" action="">
+		<table>
+			<tr>
+				<td><input type="text" name="movel" placeholder="Movel" class="caixaCad"></td>
+			</tr>
+			
+			<tr>
+				<td><input type="text" name="preco" placeholder="Preco" class="caixaCad"></td>
+			</tr>
+			
+			<tr>
+				<td><input type="text" name="cliente" placeholder="Cliente" class="caixaCad"></td>
+			</tr>
+		
+			<tr>
+				<td><input type="text" name="cpf" placeholder="Cpf" class="caixaCad"></td>
+			</tr>
+			
+			<tr>
+				<td><input type="text" name="email" placeholder="Email" class="caixaCad"></td>
+			</tr>
+		</table>
+		<input type="button" value="Cadastrar" class="botao_1" onclick="validar()">
+	</form>
+	<script src="scripts/validation.js"></script>
+</body>
+</html>
